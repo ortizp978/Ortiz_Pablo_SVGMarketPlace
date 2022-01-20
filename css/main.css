@@ -3,21 +3,37 @@ body {font: 16px; }
 .hidden {display: none;}
 
 .main-heading {
-  color: red;
+  color: yellow;
+  padding: 20px;
+  margin: 0px;
   cursor: pointer;
   text-align: center;
   font-family: 'Bungee', cursive;
-  font-size: 3em;
+  font-size: 2em;
+  background-color: black;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+
 }
 
 /* set up the grid */
 #svg-grid {
   display: grid;
+  padding: 50px 100px 50px 100px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
-.container { display: flex;}
+.container { display: flex;
+
+}
 .container img { width: 100%; }
 .container svg { width: 100%; }
+.container {
+  background-color: gray;
+  border-radius: 20px;
+}
