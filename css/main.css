@@ -16,7 +16,6 @@ body {font: 16px; }
 h2 {
   font-family: 'Bebas Neue', cursive;
   text-align: center;
-
 }
 
 /* set up the grid */
@@ -28,12 +27,16 @@ h2 {
   grid-gap: 30px;
 }
 
-.container { display: flex;
-
+.container { display: flex; flex-direction: column;
 }
 .container img { width: 100%; }
 .container svg { width: 100%; }
 .container {
-  background-color: gray;
+  padding: 10px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  background-color: none;
   border-radius: 20px;
 }
